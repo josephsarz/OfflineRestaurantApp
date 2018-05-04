@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codegene.femicodes.offlinerestaurantapp.SingleMealActivity"
+    tools:showIn="@layout/activity_single_meal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: "
+            android:textColor="#fff"/>
+        <TextView
+            android:layout_marginLeft="10sp"
+            android:id="@+id/tv_meal_price_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="300"
+            android:textColor="#ffffff"
+            android:textSize="12sp"/>
+        <TextView
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Naira"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_meal_description_d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        tools:text="@string/large_text"
+       />
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

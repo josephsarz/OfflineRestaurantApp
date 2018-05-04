@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/one" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+    </group>
+
+    <group android:id="@+id/two" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu_category"
+            android:title="Categories" />
+    </group>
+
+    <group android:id="@+id/four" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order_history"
+            android:title="Order History" />
+    </group>
+
+    <group android:id="@+id/five" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Favorite Menu" />
+    </group>
+
+    <group android:id="@+id/six" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hot_deals"
+            android:title="Hot deals" />
+    </group>
+
+    <group android:id="@+id/ten" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Notifications" />
+    </group>
+
+    <group android:id="@+id/seven" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile" />
+    </group>
+
+    <group android:id="@+id/eight" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+</menu>
